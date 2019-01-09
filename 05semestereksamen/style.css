@@ -1,0 +1,542 @@
+body {
+    max-width: 1080px;
+    margin: 0 auto;
+    background: linear-gradient(134deg, rgba(63, 96, 105, 0.6), rgba(100, 170, 188, 0.6), rgba(208, 119, 86, 0.6), rgba(198, 93, 55, 0.6));
+    background-size: 2000% 2000%;
+    animation: BaggundsGradientDerInfinte 10s ease infinite;
+
+
+
+}
+
+@keyframes BaggundsGradientDerInfinte {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+
+
+
+}
+
+header {
+
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#myBtn {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: rgba(0, 0, 0, 0.17);
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.5;
+    font-family: 'Overpass', sans-serif;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+
+}
+
+ul li {
+    float: left;
+    width: 300px;
+    height: 40px;
+    background-color: black;
+    opacity: 0.8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 5px;
+    border-radius: 40px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+ul li a:hover {
+    background-color: cadetblue;
+    border-radius: 40px;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+
+
+}
+
+
+.navigationbar {
+    position: fixed;
+    top: 10px;
+
+}
+
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1080px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.textommig {
+    flex-basis: 520px;
+    flex-grow: 1;
+    margin-right: 5px;
+
+}
+
+.billedeafmig {
+    margin-top: 1vw;
+    flex-basis: 540px;
+    flex-grow: 1;
+
+}
+
+h2 {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+
+}
+
+p {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+
+}
+
+h3 {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+
+
+
+}
+
+#om {
+    margin-top: 4vw;
+
+}
+
+.imgscale {
+
+    max-width: 1080px;
+    max-height: 500px;
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+#stilart1 {
+    margin-top: 3vw;
+
+}
+
+.tema1column {
+    display: flex;
+    flex-basis: 980px;
+    flex-wrap: wrap;
+
+}
+
+.tema1txt {
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin-right: 0.8vw;
+
+
+}
+
+.tema1pic {
+    flex-grow: 3;
+    flex-basis: 600px;
+}
+
+#tema1txtbot {
+    margin-right: 7vw;
+
+}
+
+#tema1picbot {
+    max-height: 520px;
+
+}
+
+.LinkStilart {
+    width: 42px;
+    height: 42px;
+    border: 0px;
+
+
+}
+
+.tema1knap {
+    max-width: 10vw;
+}
+
+.tema1knap2 {
+    height: 100px;
+}
+
+#tema1pic3 {}
+
+.tema1txt5 {
+    flex-grow: 4;
+    flex-basis: 500px;
+}
+
+.tema1pic5 {
+    flex-grow: 1;
+    flex-basis: 125px;
+}
+
+#sectionwrappermargin {
+    margin-bottom: 50px;
+}
+
+.behavepic {
+    max-width: 950px;
+    max-height: 600px;
+}
+
+
+
+
+.columndouble {
+    flex-basis: 1080px;
+    display: flex;
+
+
+
+
+}
+
+.coulmnhalf {
+    flex-basis: 540px;
+    flex-grow: 1;
+
+
+}
+
+
+
+
+
+
+
+#columnhalfshanvideo {
+    margin-top: 11vw;
+}
+
+#utubeknap {
+    max-width: 5vw;
+}
+
+
+
+
+.sectionwrappermarginbot {
+    margin-bottom: 3vw;
+}
+
+.behavepic1 {
+    max-width: 540px;
+
+}
+
+.tema2moodboard {
+    max-height: 360px;
+}
+
+#tema2moodboard2 {
+    max-height: 385px;
+}
+
+#marginlillesmulened {
+    margin-top: 65px;
+}
+
+#moodboardtema2margin {
+    margin-right: 0.5vw;
+}
+
+#marginmoodboardtema2 {
+    margin-top: 0.5vw;
+}
+
+.tema2knapper {
+    width: 300px;
+    height: 200px;
+}
+
+.tema2knapper2 {
+    width: 400px;
+}
+
+#tema3 {
+    margin-top: 3vw;
+}
+
+.tema3pic {
+    max-width: 540px;
+}
+
+#tema3pic2 {
+    width: 500px;
+}
+
+
+
+#tema3picgame {
+    width: 530px;
+}
+
+.tema3button {
+    max-width: 300px;
+}
+
+#tema3dok {
+    max-width: 350px;
+}
+
+#Tema4 {
+    margin-top: 3vw;
+}
+
+.simplycookingapp {
+    text-decoration: none;
+}
+
+.tema4pic {
+    max-width: 520px;
+    margin-bottom: 1vw;
+}
+
+#Tema2 {
+    margin-top: 3vw;
+}
+
+
+
+
+
+footer {
+    background-color: #864032;
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+footer p {
+    padding: 0 30px;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+
+@media only screen and (max-width: 420px) {
+    ul li {
+        width: 100px;
+        height: 40px;
+
+
+    }
+
+    #tema3 {
+        margin-top: 10vw;
+    }
+
+    #Tema4 {
+        margin-top: 10vw;
+    }
+
+    #om {
+        margin-top: 10vw;
+
+    }
+
+
+    .imgscale {
+
+        max-width: 350px;
+
+
+
+    }
+
+    .tema1knap {
+        max-width: 320px;
+    }
+
+    .behavepic {
+        max-width: 320px;
+        max-height: 210px;
+
+    }
+
+
+
+
+
+
+
+
+
+.sectionwrapper {
+    max-width: 420px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+
+}
+
+#columnhalfshanvideo {
+    display: none;
+}
+
+
+#utubeknap {
+    max-width: 70vw;
+}
+.tema2moodboard {
+    max-height: 220px;
+    max-width: 320px;
+}
+
+#tema2moodboard2 {
+    max-height: 220px;
+    max-width: 320px;
+}
+.behavepic1 {
+    max-width: 320px;
+
+}
+
+#video2 {
+    display: none;
+    
+}
+.columndouble {
+    flex-wrap: wrap;
+
+}
+.tema2knapper2 {
+    width: 300px;
+}
+
+.tema3pic {
+    max-width: 350px;
+}
+
+#tema3picgame {
+    width: 350px;
+}
+.keaskema1 {
+    max-width: 350px;
+}
+
+
+
+.tema4pic {
+    max-width: 350px;
+}
+
+
+}
+
+
+
+.keaskema1 {
+    max-width: 420px;
+    margin-top: 0.8vw;
+    
+    
+}
+
+
+
+
+
+    
+
+
+
+
+
